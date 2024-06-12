@@ -1,0 +1,16 @@
+---
+import '../styles/global.scss';
+const startYear = 2024
+const currentYear = new Date().getFullYear()
+const newYear = currentYear === startYear ? '' : ' - ' + currentYear
+
+console.log(newYear)
+---
+
+<footer>
+	<p>© RPGUA {startYear}{newYear}</p>
+	<div class="footer_links">
+		<a href="#">Telegram</a>
+		<a href="#">GitHub</a>
+	</div>
+</footer>

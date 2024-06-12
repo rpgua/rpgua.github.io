@@ -1,0 +1,19 @@
+{
+  "name": "rpgua",
+  "type": "module",
+  "version": "0.0.1",
+  "scripts": {
+    "dev": "astro dev",
+    "start": "astro dev",
+    "build": "astro check && astro build",
+    "preview": "astro preview",
+    "astro": "astro"
+  },
+  "dependencies": {
+    "astro": "^4.10.2",
+    "sass": "^1.77.4",
+    "sharp": "^0.33.3",
+    "@astrojs/check": "^0.7.0",
+    "typescript": "^5.4.5"
+  }
+}
